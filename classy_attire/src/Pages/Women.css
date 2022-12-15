@@ -1,0 +1,27 @@
+#Container{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+ 
+}
+#womenBanner{
+    /* width: 100%; */
+    margin: auto;
+}
+#Main{
+    width: 85%;
+    margin: auto;
+    /* border: 1px solid green; */
+}
+.dealcorner{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap:7
+}
+.topPicks{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+ .dealcorner img{
+    border-radius: 20px;
+ }   
