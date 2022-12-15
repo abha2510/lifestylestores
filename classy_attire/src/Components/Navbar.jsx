@@ -25,6 +25,7 @@ import { MoonIcon, SunIcon } from '@chakra-ui/icons';
 import logo from "../logo/Classy_Attire.png"
 
  const Links = [ 
+    'Home',
     'Women',
      'Men',
      'Kids' ,
@@ -54,7 +55,7 @@ export default function Navbar() {
 
   return (
     <>
-      <Box bg={useColorModeValue('gray.100', 'gray.900')} px={6}>
+      <Box bg={useColorModeValue('gray.100', 'gray.900')} px={6} position="sticky">
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <IconButton
             size={'md'}
@@ -63,10 +64,10 @@ export default function Navbar() {
             display={{ md: 'none' }}
             onClick={isOpen ? onClose : onOpen}
           />
-          <HStack spacing={10} alignItems={'center'}>
-           
+          <HStack spacing={10} alignItems={'center'} >
+           <RouterLink to="/">
             <Image src={logo} h={20}></Image>
- 
+            </RouterLink>
             <RouterLink to="/">
             <Text>Home</Text>
             </RouterLink>
@@ -99,6 +100,10 @@ export default function Navbar() {
 
             <RouterLink to="favourite">
             <Text>♥</Text>
+            </RouterLink>
+
+            <RouterLink ro="/cart">
+
             </RouterLink>
             <HStack
               as={'nav'}

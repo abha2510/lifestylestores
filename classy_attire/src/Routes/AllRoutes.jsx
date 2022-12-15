@@ -10,6 +10,7 @@ import Home from "../Pages/Home";
 import Favourite from "../Pages/Favourite";
 import Cart from "../Pages/Cart";
 import Beauty from "../Pages/Beauty";
+import WomenMain from "../Pages/WomenMain";
 
 export default function AllRoutes(){
     return(
@@ -25,6 +26,7 @@ export default function AllRoutes(){
             <Route path="/favourite" element={<Favourite/>} />
             <Route path="/cart" element={<Cart/>} />
             <Route path="/Beauty" element={<Beauty/>} />
+            <Route path="/womenmain" element={<WomenMain/>}/>
         </Routes>
         </>
     )

@@ -1,6 +1,5 @@
 import {
     Button,
-    Checkbox,
     Flex,
     FormControl,
     FormLabel,
@@ -12,6 +11,8 @@ import {
     HStack,
     PinInput,
     PinInputField,
+    SimpleGrid,
+    Box
 
   } from '@chakra-ui/react';
   import { useState } from "react";
@@ -22,19 +23,18 @@ import {
     
 
   let handelAlert=()=>{
-    
-    alert("Verify with OTP")
+      alert("Verify with OTP")
   }
 
     return (
-      <Stack minH={'100vh'} direction={{ base: 'column', md: 'row' }}>
+      <Stack minH={'100vh'} direction={{ base: 'column', md: 'row' }} mt={-40}>
         <Flex p={8} flex={1} align={'center'} justify={'center'}>
           <Stack spacing={4} w={'full'} maxW={'md'}>
             <Heading fontSize={'2xl'}>Sign up or Sign in</Heading>
             <p>Enjoy the convenienece of a single accunt all participating brands</p>
             <FormControl id="number">
               <FormLabel>Mobile Number</FormLabel>
-              <Input type="Enter your mobile number" />
+              <Input type="number" placeholder='Enter your mobile number'/>
             </FormControl>
             <p ml={10}>By creating your account you agree to our 
                 <Link color={'#FAA619'}> Term and Condition</Link></p>

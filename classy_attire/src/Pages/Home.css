@@ -1,0 +1,79 @@
+#Container{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+ 
+}
+
+#Main{
+    width: 85%;
+    margin: auto;
+    /* border: 1px solid green; */
+}
+
+.wid{
+    width: 100%;
+}
+
+.imgC{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.textc{
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+
+.homecircle{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.homeSquare{
+    display: flex;
+}
+
+.homeSquareinner{
+    width: 100%;
+}
+
+.homeSquareimg{
+    width: 200px;
+}
+
+.homeSquareimg2{
+    width: 410px;
+}
+
+.homeSquareimgX{
+    width: 600px;
+}
+.unmiss{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+}
+.winter{
+    display: grid;
+grid-template-columns: repeat(4,1fr);
+}
+.trending{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+}
+.topdeal{
+    display: grid;
+   grid-template-columns: repeat(2,1fr);
+    
+}
+.topimg{
+    margin-top: 15px;
+}
+.trending{
+    margin-top: 15px;
+}
+.ban{
+    margin-top: 10px;
+}
