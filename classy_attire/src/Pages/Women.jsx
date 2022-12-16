@@ -1,7 +1,4 @@
-import React from 'react'
-// import  Womenbags  from '../Components/Subpages/Womenbags'
-// import  Womenbottom  from '../Components/Subpages/Womenbottom'
-// import  WomenTopWear  from '../Components/Subpages/WomentopWear'
+import React from 'react';
 import Carousel2 from './Carousel2';
 import "./Women.css";
 import {Link as RouterLink} from "react-router-dom"
