@@ -3,7 +3,7 @@ import {Routes,Route} from "react-router-dom"
 import Women from "../Pages/Women";
 import Shoes from "../Pages/Shoes&Bags";
 import More from "../Pages/More";
-import Mens from "../Pages/Men";
+import Men from "../Pages/Men";
 import Login from "../Pages/Login";
 import Kids from "../Pages/Kids";
 import Home from "../Pages/Home";
@@ -20,7 +20,7 @@ export default function AllRoutes(){
             <Route path="/women" element={<Women/>} />
             <Route path="/shoes" element={<Shoes/>} />
             <Route path="/more" element={<More/>} />
-            <Route path="/mens" element={<Mens/>} />
+            <Route path="/men" element={<Men/>} />
             <Route path="/login" element={<Login/>} />
             <Route path="/kids" element={<Kids/>} />
             <Route path="/favourite" element={<Favourite/>} />
