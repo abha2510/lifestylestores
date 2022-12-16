@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import ApiCall from '../ApiCall';
 import  handleClick  from './CartAxioscall';
 import styles from './Prod.module.css'
+import {Link as RouterLink} from "react-router-dom"
 
 export default function  Womenbottom () {
 
@@ -36,8 +37,10 @@ export default function  Womenbottom () {
     
                       <div className={styles.prod_price_btn}>
                         <div className={styles.prod_price}>{`₹ ${prod.price}`}</div>
-                        <div onClick={() => handleClick(prod)} className={styles.prod_add_cart}>
-                          <button className={styles.prod_cart_btn}>Add To Cart</button></div>
+                        <div  className={styles.prod_add_cart}>
+                        <RouterLink to="/cart">
+                          <button onClick={() => handleClick(prod)}className={styles.prod_cart_btn}>Add To Cart</button>
+                          </RouterLink></div>
                       </div>
     
                       <div className={styles.prod_brand}>{prod.brand}</div>

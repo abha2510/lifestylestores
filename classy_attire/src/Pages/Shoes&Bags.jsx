@@ -1,9 +1,12 @@
-import React from "react";
+import React from 'react'
+
+import ShoesBag from "../Components/Subpages/Shoes&bags";
 
 export default function Shoes(){
-    return(
-        <div>
-            <h1>Shoes</h1>
-        </div>
-    )
+   return <div id="Container">
+   <div id="Main">
+      <ShoesBag/>
+   </div>
+    </div>
+   
 }

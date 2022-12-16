@@ -1,9 +1,13 @@
-import React from "react";
+import React from 'react'
+import  Kidsboys  from '../Components/Subpages/KidsBoys'
+import Kidsgirls from '../Components/Subpages/KidsGirls'
 
-export default function Kids(){
-    return(
-        <div>
-            <h1>Kids</h1>
+export default function KidsPage() {
+
+  return <div id="Container">
+    <div id="Main">
+        <Kidsgirls/>
+        <Kidsboys/>
         </div>
-    )
+  </div>
 }

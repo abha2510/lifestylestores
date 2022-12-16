@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import ApiCall from '../ApiCall';
 import styles from './Prod.module.css'
 import handleClick  from './CartAxioscall';
+import {Link as RouterLink} from "react-router-dom"
 
 export default function Menactivewear(){
     const [Loading, setLoading] = useState(true);
@@ -12,7 +13,6 @@ export default function Menactivewear(){
         
         ApiCall("mens", "get", null )
         .then((res)=>{
-          // console.log(res.data,res.data["men-topwear"],"test")
           setData(res.data["men-activewear"]);
         })
         .catch((err)=>{
@@ -33,8 +33,10 @@ export default function Menactivewear(){
 
                   <div className={styles.prod_price_btn}>
                     <div className={styles.prod_price}>{`₹ ${prod.price}`}</div>
-                    <div onClick={() => handleClick(prod)} className={styles.prod_add_cart}>
-                      <button className={styles.prod_cart_btn}>Add To Cart</button>
+                    <div  className={styles.prod_add_cart}>
+                          <RouterLink to="/cart">
+                          <button onClick={() => handleClick(prod)}className={styles.prod_cart_btn}>Add To Cart</button>
+                          </RouterLink>
                     </div>
                   </div>
 

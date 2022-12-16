@@ -1,24 +1,23 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 import ApiCall from '../ApiCall';
-import  handleClick  from './CartAxioscall';
-import styles from "./Prod.module.css";
- import {Link as RouterLink} from "react-router-dom"
+import handleClick  from './CartAxioscall';
+import styles from './Prod.module.css';
+import {Link as RouterLink} from "react-router-dom"
 
-export default function WomenTopWear(){
+export default function Kidsgirls(){
 
     const [Loading, setLoading] = useState(true);
     const [data,setData] = useState(null);
 
-    // api call on mounting
-    // axiosApiCall(url,method,data)
+   
     useEffect(() =>{
         setLoading(true);
 
-        ApiCall("women","get",data)
+        ApiCall("kids","get",data)
         .then((res) =>{
             setLoading(false);
-            console.log(res.data["women-topWear"]);
-            setData(res.data["women-topWear"]);
+            // console.log(res.data["kids-girls"]);
+            setData(res.data["kids-girls"]);
         })
         .catch((err) =>{
             console.log(err);
@@ -40,11 +39,10 @@ export default function WomenTopWear(){
                       <div className={styles.prod_price_btn}>
                         <div className={styles.prod_price}>{`₹ ${prod.price}`}</div>
                         <div  className={styles.prod_add_cart}>
-                          <RouterLink to="/cart">
-                          <button onClick={() => handleClick(prod)} className={styles.prod_cart_btn}>Add To Cart</button>
-                         </RouterLink>
-                         
-                        </div>
+                            <RouterLink to="/cart">
+                          <button onClick={() => handleClick(prod)}className={styles.prod_cart_btn}>Add To Cart</button>
+                          </RouterLink>
+                          </div>
                       </div>
     
                       <div className={styles.prod_brand}>{prod.brand}</div>

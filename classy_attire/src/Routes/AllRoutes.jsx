@@ -27,6 +27,7 @@ export default function AllRoutes(){
             <Route path="/cart" element={<Cart/>} />
             <Route path="/Beauty" element={<Beauty/>} />
             <Route path="/womenmain" element={<WomenMain/>}/>
+            <Route path="/womenmain/:id" element={<WomenMain/>}/>
         </Routes>
         </>
     )
