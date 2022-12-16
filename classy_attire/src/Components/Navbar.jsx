@@ -23,6 +23,7 @@ import {
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import { MoonIcon, SunIcon } from '@chakra-ui/icons';
 import logo from "../logo/Classy_Attire.png"
+ import {BsFillHandbagFill} from "react-icons/bs";
 
  const Links = [ 
     'Home',
@@ -32,7 +33,8 @@ import logo from "../logo/Classy_Attire.png"
      'Shoes & Bag',
      'Beauty',
      'More',
-     '♥'
+     '♥',
+     'cart'
     ];
  
 const NavLink = () => (
@@ -84,7 +86,7 @@ export default function Navbar() {
             <Text>Kids</Text>
             </RouterLink>
 
-            <RouterLink to="/shoes&bags">
+            <RouterLink to="/shoes">
             <Text>Shoes & Bags</Text>
             </RouterLink>
 
@@ -102,8 +104,8 @@ export default function Navbar() {
             <Text>♥</Text>
             </RouterLink>
 
-            <RouterLink ro="/cart">
-
+            <RouterLink to="/cart">
+            <BsFillHandbagFill/>
             </RouterLink>
             <HStack
               as={'nav'}

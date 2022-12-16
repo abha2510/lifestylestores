@@ -1,7 +1,7 @@
 import React from 'react'
-import  Womenbags  from '../Components/Subpages/Womenbags'
-import  Womenbottom  from '../Components/Subpages/Womenbottom'
-import  WomenTopWear  from '../Components/Subpages/WomentopWear'
+// import  Womenbags  from '../Components/Subpages/Womenbags'
+// import  Womenbottom  from '../Components/Subpages/Womenbottom'
+// import  WomenTopWear  from '../Components/Subpages/WomentopWear'
 import Carousel2 from './Carousel2';
 import "./Women.css";
 import {Link as RouterLink} from "react-router-dom"
@@ -77,6 +77,16 @@ const Curated=[
     {image:"https://lmsin.net/cdn-cgi/image/w=500,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/desktop-women-modularblock-oneBythree-A-01Dec2022.jpg"},
     {image:"https://lmsin.net/cdn-cgi/image/w=500,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/desktop-women-modularblock-oneBythree-B-01Dec2022.jpg"},
     {image:"https://lmsin.net/cdn-cgi/image/w=500,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/desktop-women-modularblock-oneBythree-C-01Dec2022.jpg"},
+]
+const Occasion=[
+    {image:"https://lmsin.net/cdn-cgi/image/w=500,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/desktop-dept-15modularblock-oneBythree-A-Women-14Dec2022.jpg"},
+    {image:"https://lmsin.net/cdn-cgi/image/w=500,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/desktop-dept-15modularblock-oneBythree-B-Women-14Dec2022.jpg"},
+    {image:"https://lmsin.net/cdn-cgi/image/w=500,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/desktop-dept-15modularblock-oneBythree-C-Women-14Dec2022.jpg"},
+]
+const Department=[
+    {image:"https://lmsin.net/cdn-cgi/image/w=500,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/desktop-dept-11modblock-oneBythree-A-Women-04March2022A.jpg"},
+    {image:"https://lmsin.net/cdn-cgi/image/w=500,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/desktop-dept-11modblock-oneBythree-B-Women-12April2022.jpg"},
+    {image:"https://lmsin.net/cdn-cgi/image/w=500,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/desktop-dept-11modblock-oneBythree-C-Women-04March2022A.jpg"},
 ]
   return <div id="Container">
     <div id="Main">
@@ -187,6 +197,27 @@ const Curated=[
         ))}
         </div>
 
+        <Heading className="textc">Occasion Wear Edit</Heading>
+      <div className='topPicks'>
+        {Occasion.map((e)=>(
+         <div>
+             <RouterLink to="/womenmain">
+            <img  src={e.image} alt="" />
+            </RouterLink>
+            </div>            
+        ))}
+        </div>
+
+        <Heading className="textc">Shop By Department</Heading>
+      <div className='topPicks'>
+        {Department.map((e)=>(
+         <div>
+             <RouterLink to="/womenmain">
+            <img  src={e.image} alt="" />
+            </RouterLink>
+            </div>            
+        ))}
+        </div>
 
 
         </div>
