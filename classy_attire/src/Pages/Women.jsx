@@ -1,13 +1,12 @@
-import React from 'react'
-// import  Womenbags  from '../Components/Subpages/Womenbags'
-// import  Womenbottom  from '../Components/Subpages/Womenbottom'
-// import  WomenTopWear  from '../Components/Subpages/WomentopWear'
+import React from 'react';
 import Carousel2 from './Carousel2';
 import "./Women.css";
 import {Link as RouterLink} from "react-router-dom"
 import {
-    Heading
+    Heading,
+    Box,Text
 }from "@chakra-ui/react"
+import {ChevronRightIcon} from "@chakra-ui/icons"
 
 export default function WomenPage() {
     const dealCorner=[
@@ -89,6 +88,11 @@ const Department=[
     {image:"https://lmsin.net/cdn-cgi/image/w=500,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/desktop-dept-11modblock-oneBythree-C-Women-04March2022A.jpg"},
 ]
   return <div id="Container">
+     <Box h={50} w={"100%"} bgColor={"#faa619"} >
+            <Text paddingTop={3} color={"white"} fontWeight={"bold"}>
+            Classy Attire Sale is Live <ChevronRightIcon/>
+            </Text>
+            </Box>
     <div id="Main">
         <Carousel2/>
         <Heading className="textc">Deal Corner</Heading>

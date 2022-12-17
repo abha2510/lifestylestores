@@ -11,6 +11,7 @@ import Favourite from "../Pages/Favourite";
 import Cart from "../Pages/Cart";
 import Beauty from "../Pages/Beauty";
 import WomenMain from "../Pages/WomenMain";
+import Menmain from "../Pages/Menmain";
 
 export default function AllRoutes(){
     return(
@@ -28,6 +29,7 @@ export default function AllRoutes(){
             <Route path="/Beauty" element={<Beauty/>} />
             <Route path="/womenmain" element={<WomenMain/>}/>
             <Route path="/womenmain/:id" element={<WomenMain/>}/>
+            <Route path="/menmain" element={<Menmain/>}/>
         </Routes>
         </>
     )
