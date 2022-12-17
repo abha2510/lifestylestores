@@ -11,12 +11,11 @@ import {
     HStack,
     PinInput,
     PinInputField,
-    SimpleGrid,
-    Box
+  
 
   } from '@chakra-ui/react';
-  import { useState } from "react";
 
+  import { useState } from "react";
 
   export default function Login() {
     const [otp, setOtp] = useState("");
@@ -24,6 +23,7 @@ import {
 
   let handelAlert=()=>{
       alert("Verify with OTP")
+      
   }
 
     return (
@@ -40,7 +40,7 @@ import {
                 <Link color={'#FAA619'}> Term and Condition</Link></p>
             {/* <Stack spacing={6}> */}
               <Button backgroundColor={'#FAA619'}  color={"white"} w={40} ml={200}
-              onClick={handelAlert} 
+              onClick={handelAlert}
               >
                 Continue
               </Button>

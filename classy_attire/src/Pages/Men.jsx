@@ -1,7 +1,8 @@
 import React from 'react'
 import CaroMen from "./CaroMen";
-import { Heading } from '@chakra-ui/react';
+import { Heading ,Box,Text} from '@chakra-ui/react';
 import {Link as RouterLink} from "react-router-dom"
+import{ ChevronRightIcon}from "@chakra-ui/icons"
 
 export default function Men(){
   const dealCorner=[
@@ -43,7 +44,13 @@ export default function Men(){
     {image:"https://lmsin.net/cdn-cgi/image/w=288,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/PC5-Banner12-men-Desktop-14Dec2022.jpg"},
   ]
   return <div id="Container">
+     <Box h={50} w={"100%"} bgColor={"#faa619"} >
+            <Text paddingTop={3} color={"white"} fontWeight={"bold"}>
+            Classy Attire Sale is Live <ChevronRightIcon/>
+            </Text>
+            </Box>
     <div id="Main">
+
       <CaroMen/>
     
         <Heading className="textc">Deal Corner</Heading>

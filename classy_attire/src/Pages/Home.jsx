@@ -1,7 +1,8 @@
-import { CardBody,Card,Image,Stack,Heading,Flex ,Text} from "@chakra-ui/react";
+import { CardBody,Card,Image,Stack,Heading,Flex ,Text,Box} from "@chakra-ui/react";
 import React from "react";
 import Carousel1  from "./Carousel1"
 import "./Home.css";
+import{ ChevronRightIcon }from "@chakra-ui/icons"
 
 
 export default function Home(){
@@ -90,9 +91,13 @@ export default function Home(){
      ]
 
     return <div id="Container">
-        
+         <Box h={50} w={"100%"} bgColor={"#faa619"} >
+            <Text paddingTop={3} color={"white"} fontWeight={"bold"}>
+            Classy Attire Sale is Live <ChevronRightIcon/>
+            </Text>
+            </Box>
        <div id="Main">
-
+     
        <Carousel1></Carousel1>
 
        <Heading className="textc">Our Benefits</Heading>

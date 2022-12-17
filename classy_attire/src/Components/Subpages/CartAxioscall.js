@@ -1,8 +1,8 @@
 import ApiCall from "../ApiCall"
 
 
-export default function handleClick(data){
-    ApiCall("cart","post",data)
+export default function handleClick(){
+    ApiCall()
     .then((response) => {
       // let data=JSON.parse(localStorage.getItem("Selected"))||[]
       console.log(response.data)

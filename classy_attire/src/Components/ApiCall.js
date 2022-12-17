@@ -9,5 +9,4 @@ function ApiCall(url,method,data){
 
 }
 
-
 export default ApiCall;
