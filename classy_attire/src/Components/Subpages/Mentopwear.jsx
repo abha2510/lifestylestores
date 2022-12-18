@@ -22,7 +22,7 @@ export default function Mentopwear(){
           console.log(err)
         })        
     },[])
-    console.log("data",data);
+    // console.log("data",data);
 
   return (
     <div className={styles.main_prod_box}>

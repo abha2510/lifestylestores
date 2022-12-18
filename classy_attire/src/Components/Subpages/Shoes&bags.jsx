@@ -12,7 +12,7 @@ export default function ShoesBag(){
         ApiCall("Shoes","get",data)
         .then((res) => {
             setData(res.data["shoes"])
-            console.log(res.data["shoes"])
+            // console.log(res.data["shoes"])
         })
         .catch((err) => {
             console.log(err)

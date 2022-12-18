@@ -19,7 +19,7 @@ export default function Menactivewear(){
           console.log(err)
         })        
     },[])
-    console.log("data",data);
+    // console.log("data",data);
   return (
     <div className={styles.main_prod_box}>
     {
@@ -33,7 +33,7 @@ export default function Menactivewear(){
 
                   <div className={styles.prod_price_btn}>
                     <div className={styles.prod_price}>{`₹ ${prod.price}`}</div>
-                    <div  className={styles.prod_add_cart}>
+                    <div  className={styles.prod_add_cart} onClick={() => handleClick(prod)}>
                           <RouterLink to="/cart">
                           <button onClick={() => handleClick(prod)}className={styles.prod_cart_btn}>Add To Cart</button>
                           </RouterLink>
