@@ -1,8 +1,9 @@
 import ApiCall from "../ApiCall"
 
-export default function handleRemove(data,id) {
-    ApiCall("cart_remove","delete",data,id)
+export default function handleRemove(data){
+    ApiCall("cart_remove","post",data)
     .then((response) => {
-      console.log(response.data.id)
+      console.log(response)
     })
 }
+

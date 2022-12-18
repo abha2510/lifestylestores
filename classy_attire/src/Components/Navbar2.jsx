@@ -32,12 +32,23 @@ import {
   import {BsFillHandbagFill} from "react-icons/bs";
   import { FaSearch } from 'react-icons/fa';
   import {FiHeart} from "react-icons/fi"
-
+ import { useState ,useEffect} from 'react';
+ import ApiCall from './ApiCall';
   
   export default function Nav2() {
     const { isOpen, onToggle } = useDisclosure();
     const { colorMode, toggleColorMode } = useColorMode();
   
+    
+    const [cartItem, setCartItem] =useState([]);
+    useEffect(() =>{
+       ApiCall("cart","get",null)
+        .then((response) => {
+            setCartItem(response.data)
+          console.log("responsekids",response)
+        })
+    },[])
+
     return (
       <Box position={"relative"}>
         <Flex
@@ -105,7 +116,17 @@ import {
             </Button>
              <Button bg={"white"}_hover={'none'}>
             <RouterLink to="/cart">
+              <Flex space={6}>
             <BsFillHandbagFill/>
+            <Box marginTop={-4}>
+            <Text 
+            background={"#faa619"}
+            p={1}
+            borderRadius={200}
+            fontWeight={"bold"}
+            color={"white"}
+            >{cartItem?.length}</Text></Box>
+            </Flex>
             </RouterLink>
             </Button>
               <Button onClick={toggleColorMode} bg={"white"} _hover={'none'}>

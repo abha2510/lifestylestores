@@ -17,7 +17,7 @@ export default function WomenTopWear(){
         ApiCall("women","get",data)
         .then((res) =>{
             setLoading(false);
-            console.log(res.data["women-topWear"]);
+            // console.log(res.data["women-topWear"]);
             setData(res.data["women-topWear"]);
         })
         .catch((err) =>{

@@ -1,15 +1,16 @@
 .cart_box{
     border: 1px solid rgb(181, 172, 172);
-    width: 50%;
-    margin: auto;
+    width: 88%;
+    margin-left: 90px;
     height: auto;
     padding: 22px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
+   
 }
 
 .cart_imgs{
-    width:50%;
+    width:90%;
 }
 
 .cart_price_btn{
@@ -23,4 +24,8 @@
     /* border: 2px solid red; */
     display: block;
     padding: 5px;
+}
+
+.cut{
+    text-decoration: line-through;
 }
