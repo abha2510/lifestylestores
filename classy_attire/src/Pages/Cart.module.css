@@ -24,8 +24,12 @@
     /* border: 2px solid red; */
     display: block;
     padding: 5px;
+    font-weight: bold;
 }
 
 .cut{
     text-decoration: line-through;
+}
+.cart_price{
+    font-weight: bold;
 }

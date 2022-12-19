@@ -1,5 +1,654 @@
 {
-  "women": {},
+  "women": {
+    "women-topWear": [
+      {
+        "id": 1,
+        "brand": "BOSSINI",
+        "category": "T-shirt",
+        "price": "1049",
+        "discount": "50",
+        "fitting": "Slim Fit",
+        "color": [
+          "gray",
+          "red",
+          "green"
+        ],
+        "sizes": [
+          "s",
+          "m",
+          "l"
+        ],
+        "img": [
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011436021-Pink-DustyPink-1000011436021_01-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011436021-Pink-DustyPink-1000011436021_02-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011436021-Pink-DustyPink-1000011436021_03-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011436021-Pink-DustyPink-1000011436021_03-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011436021-Pink-DustyPink-1000011436021_05-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011436021-Pink-DustyPink-1000011436021_06-2100.jpg"
+        ]
+      },
+      {
+        "id": 2,
+        "brand": "FAME FOREVER",
+        "category": "T-shirt",
+        "price": "949",
+        "discount": "50",
+        "fitting": "Slim Fit",
+        "color": [
+          "white",
+          "red",
+          "green"
+        ],
+        "sizes": [
+          "s",
+          "m",
+          "l"
+        ],
+        "img": [
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010445654-Red-Wine-1000010445654_01-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010445654-Red-Wine-1000010445654_02-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010445654-Red-Wine-1000010445654_03-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010445654-Red-Wine-1000010445654_04-2100.jpg"
+        ]
+      },
+      {
+        "id": 3,
+        "brand": "GINGER",
+        "category": "Top",
+        "price": "949",
+        "discount": "50",
+        "fitting": "Slim Fit",
+        "color": [
+          "yellow",
+          "red",
+          "green"
+        ],
+        "sizes": [
+          "s",
+          "m",
+          "l"
+        ],
+        "img": [
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000012180758-Black-Black-1000012180758_01-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000012180758-Black-Black-1000012180758_02-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000012180758-Black-Black-1000012180758_03-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000012180758-Black-Black-1000012180758_04-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000012180758-Black-Black-1000012180758_05-2100.jpg"
+        ]
+      },
+      {
+        "id": 4,
+        "brand": "LATIN QUARTERS",
+        "category": "T-shirt",
+        "price": "2549",
+        "discount": "50",
+        "fitting": "Regular Fit",
+        "color": [
+          "pink",
+          "red",
+          "green"
+        ],
+        "sizes": [
+          "s",
+          "m",
+          "l"
+        ],
+        "img": [
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011501100-Green-Olive-1000011501100_01-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011501100-Green-Olive-1000011501100_02-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011501100-Green-Olive-1000011501100_03-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011501100-Green-Olive-1000011501100_04-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011501100-Green-Olive-1000011501100_05-2100.jpg"
+        ]
+      },
+      {
+        "id": 5,
+        "brand": "GINGER",
+        "category": "Shirt",
+        "price": "949",
+        "discount": "50",
+        "fitting": "Slim Fit",
+        "color": [
+          "Black",
+          "red",
+          "green"
+        ],
+        "sizes": [
+          "s",
+          "m",
+          "l"
+        ],
+        "img": [
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011382822-Pink-Pink-1000011382822_01-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011382822-Pink-Pink-1000011382822_02-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011382822-Pink-Pink-1000011382822_04-2100.jpg"
+        ]
+      },
+      {
+        "id": 6,
+        "brand": "GINGER",
+        "category": "Top",
+        "price": "1749",
+        "discount": "50",
+        "fitting": "Slim Fit",
+        "color": [
+          "Black",
+          "red",
+          "green"
+        ],
+        "sizes": [
+          "s",
+          "m",
+          "l"
+        ],
+        "img": [
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011597216-Blue-Indigo-1000011597216_02-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011597216-Blue-Indigo-1000011597216_03-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011597216-Blue-Indigo-1000011597216_04-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011597216-Blue-Indigo-1000011597216_05-2100.jpg"
+        ]
+      },
+      {
+        "id": 7,
+        "brand": "GINGER",
+        "category": "Top",
+        "price": "3499",
+        "discount": "50",
+        "fitting": "Slim Fit",
+        "color": [
+          "yellow",
+          "red",
+          "green"
+        ],
+        "sizes": [
+          "s",
+          "m",
+          "l"
+        ],
+        "img": [
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011775537-Pink-Plum-1000011775537_01-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011775537-Pink-Plum-1000011775537_02-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011775537-Pink-Plum-1000011775537_04-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011775537-Pink-Plum-1000011775537_03-2100.jpg"
+        ]
+      },
+      {
+        "id": 8,
+        "brand": "BOSSINI",
+        "category": "Top",
+        "price": "649",
+        "discount": "50",
+        "fitting": "Slim Fit",
+        "color": [
+          "red",
+          "black",
+          "green"
+        ],
+        "sizes": [
+          "s",
+          "m",
+          "l"
+        ],
+        "img": [
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011721951-Green-Olive-1000011721951_01-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011721951-Green-Olive-1000011721951_02-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011721951-Green-Olive-1000011721951_04-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011721951-Green-Olive-1000011721951_05-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011721951-Green-Olive-1000011721951_06-2100.jpg"
+        ]
+      },
+      {
+        "id": 9,
+        "brand": "BOSSINI",
+        "category": "Top",
+        "price": "649",
+        "discount": "50",
+        "fitting": "Slim Fit",
+        "color": [
+          "red",
+          "black",
+          "green"
+        ],
+        "sizes": [
+          "s",
+          "m",
+          "l"
+        ],
+        "img": [
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010808337-Pink-Peach-1000010808337_01-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010808337-Pink-Peach-1000010808337_02-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010808337-Pink-Peach-1000010808337_04-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010808337-Pink-Peach-1000010808337_05-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010808337-Pink-Peach-1000010808337_06-2100.jpg"
+        ]
+      }
+    ],
+    "women-ethnicwear": [
+      {
+        "id": 10,
+        "brand": "MELANGE",
+        "category": "Kurta",
+        "price": "899",
+        "discount": "40",
+        "fitting": "Straight Fit",
+        "color": [
+          "blue",
+          "red",
+          "green"
+        ],
+        "sizes": [
+          "s",
+          "m",
+          "l"
+        ],
+        "img": [
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009665966-Blue-Navy-1000009665966_01-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009665966-Blue-Navy-1000009665966_02-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009665966-Blue-Navy-1000009665966_03-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009665966-Blue-Navy-1000009665966_04-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009665966-Blue-Navy-1000009665966_05-2100.jpg"
+        ]
+      },
+      {
+        "id": 11,
+        "brand": "MELANGE",
+        "category": "Kurta",
+        "price": "1019",
+        "discount": "40",
+        "fitting": "Straight Fit",
+        "color": [
+          "red",
+          "black",
+          "green"
+        ],
+        "sizes": [
+          "s",
+          "m",
+          "l"
+        ],
+        "img": [
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009666068-Red-Maroon-1000009666068_01-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009666068-Red-Maroon-1000009666068_02-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009666068-Red-Maroon-1000009666068_03-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009666068-Red-Maroon-1000009666068_04-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009666068-Red-Maroon-1000009666068_05-2100.jpg"
+        ]
+      },
+      {
+        "id": 12,
+        "brand": "COLOUR ME",
+        "category": "Tunic",
+        "price": "779",
+        "discount": "40",
+        "fitting": "Slim Fit",
+        "color": [
+          "yellow",
+          "red",
+          "green"
+        ],
+        "sizes": [
+          "s",
+          "m",
+          "l"
+        ],
+        "img": [
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000008766071-Yellow-Mustard-1000008766071_01-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000008766071-Yellow-Mustard-1000008766071_02-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000008766071-Yellow-Mustard-1000008766071_03-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000008766071-Yellow-Mustard-1000008766071_04-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000008766071-Yellow-Mustard-1000008766071_05-2100.jpg"
+        ]
+      },
+      {
+        "id": 13,
+        "brand": "MELANGE",
+        "category": "Kurta",
+        "price": "1019",
+        "discount": "40",
+        "fitting": "Regular Fit",
+        "color": [
+          "blue",
+          "red",
+          "green"
+        ],
+        "sizes": [
+          "s",
+          "m",
+          "l"
+        ],
+        "img": [
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009666360-Blue-Indigo-1000009666360_01-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009666360-Blue-Indigo-1000009666360_02-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009666360-Blue-Indigo-1000009666360_03-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009666360-Blue-Indigo-1000009666360_04-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009666360-Blue-Indigo-1000009666360_05-2100.jpg"
+        ]
+      },
+      {
+        "id": 14,
+        "brand": "MELANGE",
+        "category": "Kurta",
+        "price": "1379",
+        "discount": "40",
+        "fitting": "Slim Fit",
+        "color": [
+          "white",
+          "red",
+          "green"
+        ],
+        "sizes": [
+          "s",
+          "m",
+          "l"
+        ],
+        "img": [
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009510721-White-OffWhite-1000009510721_01-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009510721-White-OffWhite-1000009510721_02-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009510721-White-OffWhite-1000009510721_03-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009510721-White-OffWhite-1000009510721_04-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009510721-White-OffWhite-1000009510721_06-2100.jpg"
+        ]
+      },
+      {
+        "id": 15,
+        "brand": "MELANGE",
+        "category": "Kurta",
+        "price": "999",
+        "discount": "30",
+        "fitting": "Slim Fit",
+        "color": [
+          "white",
+          "red",
+          "green"
+        ],
+        "sizes": [
+          "s",
+          "m",
+          "l"
+        ],
+        "img": [
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010024215-White-OffWhite-1000010024215_01-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010024215-White-OffWhite-1000010024215_02-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010024215-White-OffWhite-1000010024215_03-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010024215-White-OffWhite-1000010024215_04-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010024215-White-OffWhite-1000010024215_05-2100.jpg"
+        ]
+      },
+      {
+        "id": 16,
+        "brand": "MELANGE",
+        "category": "Kurta",
+        "price": "909",
+        "discount": "30",
+        "fitting": "Slim Fit",
+        "color": [
+          "green",
+          "red",
+          "green"
+        ],
+        "sizes": [
+          "s",
+          "m",
+          "l"
+        ],
+        "img": [
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009778157-Green-Green-1000009778157_01-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009778157-Green-Green-1000009778157_02-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009778157-Green-Green-1000009778157_03-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009778157-Green-Green-1000009778157_04-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009778157-Green-Green-1000009778157_05-2100.jpg"
+        ]
+      },
+      {
+        "id": 17,
+        "brand": "MELANGE",
+        "category": "Kurta",
+        "price": "909",
+        "discount": "30",
+        "fitting": "Slim Fit",
+        "color": [
+          "coral",
+          "black",
+          "green"
+        ],
+        "sizes": [
+          "s",
+          "m",
+          "l"
+        ],
+        "img": [
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009745117-Pink-Coral-1000009745117_01-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009745117-Pink-Coral-1000009745117_02-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009745117-Pink-Coral-1000009745117_03-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009745117-Pink-Coral-1000009745117_04-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009745117-Pink-Coral-1000009745117_05-2100.jpg"
+        ]
+      },
+      {
+        "id": 18,
+        "brand": "COLOUR ME",
+        "category": "Kurta",
+        "price": "1599",
+        "discount": "30",
+        "fitting": "Straight Fit",
+        "color": [
+          "red",
+          "black",
+          "green"
+        ],
+        "sizes": [
+          "s",
+          "m",
+          "l"
+        ],
+        "img": [
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009766248-Red-Red-1000009766248_01-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009766248-Red-Red-1000009766248_02-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009766248-Red-Red-1000009766248_03-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009766248-Red-Red-1000009766248_04-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009766248-Red-Red-1000009766248_05-2100.jpg"
+        ]
+      }
+    ],
+    "women-bags": [
+      {
+        "id": 19,
+        "brand": "LAVIE",
+        "category": "handheld bag",
+        "price": "1990",
+        "discount": "50",
+        "sizes": [
+          "s",
+          "m",
+          "l"
+        ],
+        "color": [
+          "brown",
+          "black",
+          "white"
+        ],
+        "img": [
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009317906-1000009317905_01-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009317906-1000009317905_03-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009317906-1000009317905_04-2100.jpg"
+        ]
+      },
+      {
+        "id": 20,
+        "brand": "CODE",
+        "category": "handheld bag",
+        "price": "1690",
+        "discount": "40",
+        "sizes": [
+          "s",
+          "m",
+          "l"
+        ],
+        "color": [
+          "brown",
+          "black",
+          "white"
+        ],
+        "img": [
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009916513-1000009916508_01-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009916513-1000009916508_03-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009916513-1000009916508_05-2100.jpg"
+        ]
+      },
+      {
+        "id": 21,
+        "brand": "CODE",
+        "category": "clutch",
+        "price": "799",
+        "discount": "5",
+        "sizes": [
+          "s",
+          "m",
+          "l"
+        ],
+        "color": [
+          "pink",
+          "black",
+          "white"
+        ],
+        "img": [
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000007179594-1000007179591-27219_01-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000007179594-1000007179591-27219_03-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000007179594-1000007179591-27219_06-2100.jpg"
+        ]
+      },
+      {
+        "id": 22,
+        "brand": "CODE",
+        "category": "clutch",
+        "price": "1699",
+        "discount": "10",
+        "sizes": [
+          "s",
+          "m",
+          "l"
+        ],
+        "color": [
+          "pink",
+          "black",
+          "white"
+        ],
+        "img": [
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000008457264-1000008457263_01-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000008457264-1000008457263_03-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000008457264-1000008457263_05-2100.jpg"
+        ]
+      },
+      {
+        "id": 23,
+        "brand": "CODE",
+        "category": "clutch",
+        "price": "1399",
+        "discount": "10",
+        "sizes": [
+          "s",
+          "m",
+          "l"
+        ],
+        "color": [
+          "pink",
+          "black",
+          "white"
+        ],
+        "img": [
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009785542-1000009785541_01-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009785544-1000009785541_01-2100.jpg",
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009785544-1000009785541_03-2100.jpg"
+        ]
+      }
+    ],
+    "women-bottoms": [
+      {
+        "id": 53,
+        "brand": "GINGER",
+        "category": " Cropped Jeans",
+        "price": "699",
+        "discount": "40",
+        "fitting": " Slim Fit",
+        "color": [
+          "Black",
+          "red",
+          "green"
+        ],
+        "sizes": [
+          "s",
+          "m",
+          "l"
+        ],
+        "img": [
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000008525354-Var7-Black-BLACK-1000008525354-Var7_01-2100.jpg"
+        ]
+      },
+      {
+        "id": 54,
+        "brand": "GINGER",
+        "category": "Jeans",
+        "price": "899",
+        "discount": "40",
+        "fitting": "Straight Fit",
+        "color": [
+          "white",
+          "red",
+          "green"
+        ],
+        "sizes": [
+          "s",
+          "m",
+          "l"
+        ],
+        "img": [
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000008207391-var7-White-1000008207391-var7_01-2100.jpg"
+        ]
+      },
+      {
+        "id": 55,
+        "brand": "GINGER",
+        "category": "Jeans",
+        "price": "449",
+        "discount": "80",
+        "fitting": "Regular Fit",
+        "color": [
+          "orange",
+          "red",
+          "green"
+        ],
+        "sizes": [
+          "s",
+          "m",
+          "l"
+        ],
+        "img": [
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000008525354-Var7-Black-BLACK-1000008525354-Var7_01-2100.jpg"
+        ]
+      },
+      {
+        "id": 56,
+        "brand": "CODE",
+        "category": "Trousers",
+        "price": "1049",
+        "discount": "80",
+        "fitting": "Regular Fit",
+        "color": [
+          "red",
+          "red",
+          "green"
+        ],
+        "sizes": [
+          "s",
+          "m",
+          "l"
+        ],
+        "img": [
+          "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009712694-Red-Wine-1000009712694_01-2100.jpg"
+        ]
+      }
+    ]
+  },
   "kids": {
     "kids-girls": [
       {
@@ -744,73 +1393,32 @@
   },
   "cart": [
     {
-      "id": 44,
-      "brand": "FILA",
-      "category": "sports shoes",
-      "price": "1499",
+      "id": 5,
+      "brand": "GINGER",
+      "category": "Shirt",
+      "price": "949",
       "discount": "50",
+      "fitting": "Slim Fit",
       "color": [
-        "black",
-        "white",
-        "pink"
+        "Black",
+        "red",
+        "green"
       ],
       "sizes": [
-        "8-UK",
-        "7-Uk",
-        "9-UK"
+        "s",
+        "m",
+        "l"
       ],
       "img": [
-        "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000008876521-Pink-1000008876521_01-2100.jpg",
-        "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000008876521-Pink-1000008876521_03-2100.jpg",
-        "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000008876521-Pink-1000008876521_05-2100.jpg"
+        "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011382822-Pink-Pink-1000011382822_01-2100.jpg",
+        "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011382822-Pink-Pink-1000011382822_02-2100.jpg",
+        "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000011382822-Pink-Pink-1000011382822_04-2100.jpg"
       ]
     }
   ],
   "cart_remove": [
     {
-      "id": 25,
-      "brand": "JUNIORS Girls Sol",
-      "category": "Pants",
-      "price": "400",
-      "discount": "50",
-      "fitting": "Regular Fit",
-      "color": [
-        "white",
-        "red",
-        "green"
-      ],
-      "sizes": [
-        "s",
-        "m",
-        "l"
-      ],
-      "img": [
-        "https://lmsin.net/cdn-cgi/image/h=235,w=235,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009313523-Brown-BURGANDY-1000009313523_01-2100.jpg",
-        "https://lmsin.net/cdn-cgi/image/h=235,w=235,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009313523-Black-BLACK-1000009313523_01-2100.jpg"
-      ]
-    },
-    {
-      "id": 80,
-      "brand": "MINI KLUB Girls Printed Peter Pan Collar Top",
-      "category": " Sleeves T-shirt",
-      "price": "559",
-      "discount": "50",
-      "fitting": "Regular Fit",
-      "color": [
-        "white",
-        "red",
-        "green"
-      ],
-      "sizes": [
-        "s",
-        "m",
-        "l"
-      ],
-      "img": [
-        "https://lmsin.net/cdn-cgi/image/h=1125,w=1125,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000012011130-Pink-Pink-1000012011130_01-2100.jpg",
-        "https://lmsin.net/cdn-cgi/image/h=1125,w=1125,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000012011130-Pink-Pink-1000012011130_03-2100.jpg",
-        "https://lmsin.net/cdn-cgi/image/h=1125,w=1125,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000012011130-Pink-Pink-1000012011130_04-2100.jpg"
-      ]
+      "id": 1
     }
   ]
 }

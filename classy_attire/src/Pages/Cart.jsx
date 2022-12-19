@@ -11,6 +11,7 @@ export default function Cart(){
     const [cartItem, setCartItem] =useState([]);
     const [Counter,setCounter]=useState(1)
     
+    
     useEffect(() =>{
         ApiCall("cart","get",null)
         .then((response) => {
@@ -41,9 +42,14 @@ export default function Cart(){
       <br />
       <Heading fontSize={16} textAlign={'left'} marginLeft={20}>{cartItem.length} Product</Heading>
       <br />
+   {cartItem.length===0?<Image 
+   border={"0px solid gray"}
+   w={"500px"}
+   ml={300}
+   mr={20}
+   src="https://www.lifestylestores.com/_next/image?url=%2Fstatic%2Ficons%2Fempty-basket.svg&w=384&q=75"/>
    
-    {
-      cartItem?.map((prod)=>{
+   :cartItem?.map((prod)=>{
         return(
           <div>
             {
@@ -58,14 +64,14 @@ export default function Cart(){
                   </div>
 
                   <div className={styles.prod_brand}>Brand: {prod.brand}</div>
-             <Flex float={"right"}>
+             <Flex >
              <Button disabled={Counter===0} onClick={()=>handleSub(1)}>-</Button>
              <h1>{Counter}</h1>
              <Button onClick={()=>handleAdd(1)}>+</Button>
              </Flex>
              <Text>Total Price:{Math.floor(Counter*prod.price)}</Text>
                
-               <Button onClick={()=>handleRemove(prod) }>Delete</Button>
+               <Button onClick={()=>handleRemove(prod) }bg={"#faa619"} color={"white"} fontWeight={"bold"}>Remove</Button>
                 </div>
                
               </div>
@@ -74,7 +80,7 @@ export default function Cart(){
             }
           </div>
         )
-      })
+          })
     }
     </div>
    <Stack marginRight={"100px"} marginTop={"120px"} border= "1px solid rgb(181, 172, 172)" > 
@@ -129,17 +135,17 @@ export default function Cart(){
           p={8}>
         <Flex>
         <Text>Total MRP</Text>
-        <Text ml={260}>{Counter*prod.price+750}</Text>        
+        <Text ml={250}>{Counter*prod.price+750}</Text>        
       </Flex>
       <br />
       <Flex>
       <Text>Offer discount</Text>
-      <Text ml={220} color={"green"}>-₹ 750</Text>
+      <Text ml={210} color={"green"}>-₹ 750</Text>
       </Flex>
       <br />
       <Flex>
       <Text>Shipping charge</Text>
-      <Text ml={220} fontWeight={"bold"}>Free</Text>
+      <Text ml={210} fontWeight={"bold"}>Free</Text>
       </Flex>
       <br />
       <hr />

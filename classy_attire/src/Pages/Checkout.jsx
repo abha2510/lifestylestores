@@ -107,14 +107,14 @@ import {
                   Adress Type(Optional)
                 </Text>
                 <Flex justifyContent={"flex-start"}>
-                <Checkbox size='lg' colorScheme='orange' defaultChecked >
+                <Checkbox size='lg' colorScheme='orange' defaultUnChecked >
                    Home
                 </Checkbox>
-                <Checkbox size='lg' colorScheme='orange' defaultChecked marginLeft={10}>
+                <Checkbox size='lg' colorScheme='orange' defaultUnChecked marginLeft={10}>
                    Office
                 </Checkbox>
                 </Flex>
-                <Checkbox size='lg' colorScheme='orange' defaultChecked>
+                <Checkbox size='lg' colorScheme='orange' defaultUnChecked>
                    Use this as my default shipping adress
                 </Checkbox>
                 <br />
@@ -132,31 +132,31 @@ import {
             <Grid  rounded={'lg'}
             boxShadow={'lg'}
             p={8}>
-                <Checkbox size='lg' colorScheme='orange' defaultChecked marginLeft={10}>
+                <Checkbox size='lg' colorScheme='orange' defaultUnChecked marginLeft={10}>
                    <Flex>
                   <Image h={10} w={20}src="https://www.howtogeek.com/wp-content/uploads/2020/11/Google-Pay-hero.png?width=1198&trim=1"/>
                  Google pay
                   </Flex>
                 </Checkbox>
-                <Checkbox size='lg' colorScheme='orange' defaultChecked marginLeft={10}>
+                <Checkbox size='lg' colorScheme='orange' defaultUnChecked marginLeft={10}>
                     <Flex>
                <Image h={20} w={20} src="https://th.bing.com/th/id/OIP.AXY7P2GoHpUDMnT_LhqRlAHaHa?pid=ImgDet&rs=1"></Image>
               <Text mt={5}>PhonePe</Text> 
                </Flex>
                 </Checkbox>
-                <Checkbox size='lg' colorScheme='orange' defaultChecked marginLeft={10}>
+                <Checkbox size='lg' colorScheme='orange' defaultUnChecked marginLeft={10}>
                     <Flex>
                  <Image h={10} w={20} src="https://logosmarcas.net/wp-content/uploads/2020/11/Paytm-Emblema.png"></Image>
                 Paytm
                  </Flex>
                 </Checkbox>
-                <Checkbox size='lg' colorScheme='orange' defaultChecked marginLeft={10}>
+                <Checkbox size='lg' colorScheme='orange' defaultUnChecked marginLeft={10}>
                     <Flex>
                   <Image h={10} w={10} ml={5} src="https://cdn.iconscout.com/icon/free/png-256/bhim-3-69845.png"></Image>
              <Text mt={2} ml={5}> Bhim</Text>
                   </Flex>
                 </Checkbox>
-                <Checkbox size='lg' colorScheme='orange' defaultChecked marginLeft={10}>
+                <Checkbox size='lg' colorScheme='orange' defaultUnChecked marginLeft={10}>
                     <Flex>
                    <Image  h={10} w={10} ml={5} src="https://th.bing.com/th/id/OIP.tm019Auh5djE0Snj_8cj6wHaHa?pid=ImgDet&rs=1"></Image>
               <Text mt={2}>Other UPI App</Text>  
