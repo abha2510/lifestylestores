@@ -21,7 +21,7 @@ export default function WomenMain(price){
             </Heading>
             </Box>
    <div id="Main">
-     <Button>Price Low To High</Button><Button>Price Hight to Low</Button>
+    
         <WomenTopWear/>
         <Box h={100} w={"100%"}  >
             <Heading p={8} bg={"gray.100"} fontWeight={"bold"}>
