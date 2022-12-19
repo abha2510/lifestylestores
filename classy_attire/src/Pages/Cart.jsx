@@ -1,9 +1,12 @@
 import { Flex ,Text,Button,Heading,Divider,Stack, Box
-  ,FormLabel,Alert,AlertIcon,Input,FormControl,Image,Card, Grid} from '@chakra-ui/react';
+  ,FormLabel,Alert,AlertIcon,Input,FormControl,Image,Card, Grid,
+  Center
+} from '@chakra-ui/react';
+import {TriangleDownIcon,TriangleUpIcon} from "@chakra-ui/icons"
 import React, { useEffect } from 'react'
 import { useState } from 'react'
 import ApiCall from '../Components/ApiCall';
-import  handleRemove  from "../Components/Subpages/DeleteItem";
+// import  handleRemove  from "../Components/Subpages/DeleteItem";
 import styles from './Cart.module.css';
 import {Link as RouterLink} from "react-router-dom"
 
@@ -20,7 +23,14 @@ export default function Cart(){
         })
     },[]);
 
-
+  const  handleRemove=(data)=>{
+      ApiCall("cart_remove","post",data)
+      .then((response) => {
+        console.log(response)
+        setCartItem([]);
+        
+      })
+  }
     const handleSub=()=>{
         if(Counter===0){
             return;
@@ -64,19 +74,23 @@ export default function Cart(){
                   </div>
 
                   <div className={styles.prod_brand}>Brand: {prod.brand}</div>
-             <Flex >
-             <Button disabled={Counter===0} onClick={()=>handleSub(1)}>-</Button>
-             <h1>{Counter}</h1>
-             <Button onClick={()=>handleAdd(1)}>+</Button>
-             </Flex>
+             
              <Text>Total Price:{Math.floor(Counter*prod.price)}</Text>
-               
-               <Button onClick={()=>handleRemove(prod) }bg={"#faa619"} color={"white"} fontWeight={"bold"}>Remove</Button>
-                </div>
-               
+            
+              <Flex ml={70}>
+             <Button disabled={Counter===0} onClick={()=>handleSub(1)} marginBottom={5} color={"#faa619"} size="sm"><TriangleDownIcon/></Button>
+             <h1 pt={10}>Qty:{Counter}</h1>
+             <Button onClick={()=>handleAdd(1)}color={"#faa619"} size="sm"><TriangleUpIcon/></Button>
+             </Flex>
+                  <Center cursor={"pointer"} height='60px'justifyContent={"space-evenly"} w={"190%"} border={"0.5px solid gray"} color={"#faa619"}
+                   onClick={()=>handleRemove()}>
+                   Remove
+                <Divider orientation='vertical' />
+                  Move to Favourites
+              </Center>
+
+                </div>    
               </div>
-              
-              
             }
           </div>
         )

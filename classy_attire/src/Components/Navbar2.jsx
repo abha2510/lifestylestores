@@ -324,9 +324,12 @@ import {
           href: '/women',
         },
         {
-            label: 'Lingerie/Sleepwear',
-            subLabel: 'Bras',
-            href: '/women',
+          label: 'Lingerie/Sleepwear',
+          subLabel: 'Bras',
+          sub:'Dresses & Jumpsuits',
+          top:"Jeand & Jeggings",
+          legg:'Shorts & Skirts',
+          href: '/women',
           },
           {
             label: 'SportWear',

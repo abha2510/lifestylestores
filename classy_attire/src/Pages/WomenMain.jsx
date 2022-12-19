@@ -3,19 +3,37 @@ import  Womenbags  from '../Components/Subpages/Womenbags'
 import  Womenbottom  from '../Components/Subpages/Womenbottom'
 import  WomenTopWear  from '../Components/Subpages/WomentopWear'
 import "./Women.css";
-import {Box,Text} from '@chakra-ui/react';
+import {Box,Heading,Button} from '@chakra-ui/react';
 import{ ChevronRightIcon}from "@chakra-ui/icons"
+import axios from 'axios';
 
-export default function WomenMain(){
+
+export default function WomenMain(price){
+     
+     axios.get(`http://localhost:3000/womenmain?_sort=${price}`);
+
+
    return <div id="Container">
- <Box h={50} w={"100%"} bgColor={"#faa619"} >
-            <Text paddingTop={3} color={"white"} fontWeight={"bold"}>
-            Classy Attire Sale is Live <ChevronRightIcon/>
-            </Text>
+ <Box h={100} w={"100%"}  >
+     
+            <Heading p={8} bg={"gray.100"} fontWeight={"bold"}>
+            Sweatshirts & Hoodies <ChevronRightIcon/>
+            </Heading>
             </Box>
    <div id="Main">
+     <Button>Price Low To High</Button><Button>Price Hight to Low</Button>
         <WomenTopWear/>
+        <Box h={100} w={"100%"}  >
+            <Heading p={8} bg={"gray.100"} fontWeight={"bold"}>
+            Bags & Slings <ChevronRightIcon/>
+            </Heading>
+            </Box>
         <Womenbags/>
+        <Box h={100} w={"100%"}  >
+            <Heading p={8} bg={"gray.100"} fontWeight={"bold"}>
+            Bottom <ChevronRightIcon/>
+            </Heading>
+            </Box>
         <Womenbottom/>
    </div>
     </div>
