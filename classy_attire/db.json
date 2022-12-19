@@ -1392,6 +1392,12 @@
     ]
   },
   "cart": [
+    
+  ],
+  "cart_remove": [
+    {
+      "id": 1
+    },
     {
       "id": 44,
       "brand": "FILA",
@@ -1413,11 +1419,9 @@
         "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000008876521-Pink-1000008876521_03-2100.jpg",
         "https://lmsin.net/cdn-cgi/image/h=1200,w=1200,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000008876521-Pink-1000008876521_05-2100.jpg"
       ]
-    }
-  ],
-  "cart_remove": [
+    },
     {
-      "id": 1
+      "id": 45
     }
   ]
 }
