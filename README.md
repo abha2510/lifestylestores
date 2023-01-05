@@ -1,16 +1,16 @@
 # Classy Attire 
 
-#This website is clone of https://www.lifestylestores.com/in/en/
+## This website is clone of https://www.lifestylestores.com/in/en/
 
-#This is the Ecommerce website from where we can buy clothes,bags,beauty products.
+## This is the Ecommerce website from where we can buy clothes,bags,beauty products.
 
-#Used Techstack here : React, Javascript,Html,CSS and Chakra UI and Chakra Template for css.
+## Used Techstack here : React, Javascript,Html,CSS and Chakra UI and Chakra Template for css.
 
-#For backnend : json-server
+## For backnend : json-server
 
-#Step Follow:  1.npm i  , 2.json-server --watch db.json --port 8080  ,  3.npm start
+## Step Follow:  1.npm i  , 2.json-server --watch db.json --port 8080  ,  3.npm start
 
-#Output
+## Output
 ![Screenshot (3)](https://user-images.githubusercontent.com/107466839/208711617-c1216273-6440-4814-823d-422596c4d682.png)
 
 ![Screenshot (4)](https://user-images.githubusercontent.com/107466839/208714036-a17d5bdc-282c-4712-ad65-e091b8e44a9a.png)
