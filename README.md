@@ -1,6 +1,6 @@
 # Classy Attire 
 
-## This website is clone of https://www.lifestylestores.com/in/en/
+### This website is clone of https://www.lifestylestores.com/in/en/
 
 ## This is the Ecommerce website from where we can buy clothes,bags,beauty products.
 
