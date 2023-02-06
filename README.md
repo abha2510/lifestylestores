@@ -20,10 +20,18 @@ Some products
 
 ![Screenshot (7)](https://user-images.githubusercontent.com/107466839/208714160-0ecf3119-61f3-446c-8534-68a7ffd9fea3.png)
 
+Female clothes Category.
+
 ![Screenshot (8)](https://user-images.githubusercontent.com/107466839/208714306-7540f51c-15d2-4564-bf38-b1e55e41e7fd.png)
+
+Shoes Category here you will get all type of footwears.
 
 ![Screenshot (14)](https://user-images.githubusercontent.com/107466839/208714825-8982dd8d-3779-4ea9-9137-b4012c36c56e.png)
 
+Cart Page from where custmer can increase the quantity and can see the total price also and if he or she like move further they can go to checkout page.
+
 ![Screenshot (12)](https://user-images.githubusercontent.com/107466839/208714333-a9f599ce-d17c-4df4-8ad8-10c777de3b60.png)
+
+Footer 
 
 ![Screenshot (13)](https://user-images.githubusercontent.com/107466839/208714354-f86ae6c9-4958-4bc4-9fb8-af9d6909fbb7.png)
