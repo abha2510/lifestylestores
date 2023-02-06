@@ -11,7 +11,10 @@
 ## Step Follow:  1.npm i  , 2.json-server --watch db.json --port 8080  ,  3.npm start
 
 ## Output
+This is an Home Page
 ![Screenshot (3)](https://user-images.githubusercontent.com/107466839/208711617-c1216273-6440-4814-823d-422596c4d682.png)
+
+Some products
 
 ![Screenshot (4)](https://user-images.githubusercontent.com/107466839/208714036-a17d5bdc-282c-4712-ad65-e091b8e44a9a.png)
 
