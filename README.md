@@ -7,9 +7,9 @@
  Classy Attire is a Ecommerce website from where we can buy clothes,bags,beauty products.
 
 Used Techstack here : 
-- React, 
+- React -94.3%, 
 - Javascript,
-- Html,
+- Html -1.5%,
 - CSS,
 - Chakra UI and 
 - Chakra Template for css.
