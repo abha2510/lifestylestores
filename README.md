@@ -1,14 +1,25 @@
 # Classy Attire 
 
-### This website is clone of https://www.lifestylestores.com/in/en/
+ Classy Attire is clone of https://www.lifestylestores.com/in/en/
+ 
+ This is an individual project.Completed in 5 days.
 
-## This is the Ecommerce website from where we can buy clothes,bags,beauty products.
+ Classy Attire is a Ecommerce website from where we can buy clothes,bags,beauty products.
 
-## Used Techstack here : React, Javascript,Html,CSS and Chakra UI and Chakra Template for css.
+Used Techstack here : 
+- React, 
+- Javascript,
+- Html,
+- CSS,
+- Chakra UI and 
+- Chakra Template for css.
 
-## For backnend : json-server
+ For backnend : json-server
 
-## Step Follow:  1.npm i  , 2.json-server --watch db.json --port 8080  ,  3.npm start
+### Step Follow: 
+- npm i  
+- json-server --watch db.json --port 8080  
+- npm start
 
 ## Output
 This is an Home Page
