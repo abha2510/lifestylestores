@@ -2,17 +2,16 @@
 
  Classy Attire is clone of https://www.lifestylestores.com/in/en/
  
+ Netlify Link: https://classy-attire.vercel.app/
+ 
  This is an individual project.Completed in 5 days.
 
  Classy Attire is a Ecommerce website from where we can buy clothes,bags,beauty products.
 
 Used Techstack here : 
-- React -94.3%, 
-- Javascript,
-- Html -1.5%,
-- CSS,
-- Chakra UI and 
-- Chakra Template for css.
+- React , Javascript - 94.3%, 
+- Html  - 1.5%,
+- CSS ,Chakra UI and Chakra Template for css - 4.3%
 
  For backnend : json-server
 
